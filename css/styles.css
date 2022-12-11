@@ -4609,6 +4609,14 @@ textarea.form-control-lg {
   border-radius: calc(0.25rem - 1px);
 }
 
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(2.0); 
+}
+
 .card-img,
 .card-img-top,
 .card-img-bottom {
